@@ -8,6 +8,5 @@ module.exports = require('babel-jest').createTransformer({
         },
       },
     ],
-    '@babel/preset-react',
   ],
 });
