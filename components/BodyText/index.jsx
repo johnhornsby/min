@@ -2,11 +2,7 @@ import React from 'react';
 
 import DOMPurify from 'isomorphic-dompurify';
 
-interface BodyText {
-  richTextText?: string;
-}
-
-const BodyText = ({ richTextText }: BodyText) => {
+const BodyText = ({ richTextText }) => {
   return (
     <>
       {richTextText && (
