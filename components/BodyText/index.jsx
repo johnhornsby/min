@@ -6,7 +6,8 @@ const BodyText = ({ richTextText }) => {
   return (
     <>
       {richTextText && (
-        <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(richTextText) }} />
+        // <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(richTextText) }} />
+        <div dangerouslySetInnerHTML={{ __html: richTextText }} />
       )}
     </>
   );
