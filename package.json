@@ -10,10 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.17.10",
-    "@testing-library/jest-dom": "^5.16.4",
     "babel-jest": "^28.0.3",
     "isomorphic-dompurify": "^0.20.0",
     "jest": "^28.1.0",
-    "jest-environment-jsdom": "^29.5.0"
+    "jest-environment-jsdom": "^28.1.0"
   }
 }

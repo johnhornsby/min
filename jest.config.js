@@ -1,7 +1,8 @@
 module.exports = {
   testEnvironment: "jest-environment-jsdom",
   transform: {
-    "^.+\\.[j]sx?$": "./jest.transform.js",
+    "^.+\\.[j]sx?$": "babel-jest",
   },
   setupFilesAfterEnv: ["./jest.setup.js"],
+  // transformIgnorePatterns: ['/node_modules/(?!(min|jsdom)/)'],
 };
